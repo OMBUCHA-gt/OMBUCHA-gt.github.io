@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+
+
+    <title>Portforlio</title>
+</head>
+<body>
+    
+    <!--NAVBAR-->
+    <nav>
+        <div class="left">
+            <a href="/">Ombucha Phelisters</a>
+        </div>
+        <div class="right">
+            <a href="https://Linkedin.com" target="_blank" rel="noopener no-referrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+            <a href="https://github.com" target="_blank" rel="noopener no-referrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="mailto:ombuchap2@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+
+        </div>
+    </nav>
+    <main>
+        <!--SECTION 1: HERO-->
+        <section class="Hero section">
+            <div class="text">
+                <h2>Hi! I'm Phelisters</h2>
+                <p>Software developer. I build solutions, write clean code, and love learning. My passion for technology, coding to be specific is my strength. Solving Real Tech Problems</p>
+            <div class="links">
+                <a href="skills">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Skills</span>
+                </a>
+
+                <a href="Education Background">
+                    <i class="fa-solid fa-thumbs-up"></i>
+                    <span>Education Background</span>
+                </a>
+
+                <a href="contact">
+                    <i class="fa-solid fa-envelope-circle-check"></i>
+                    <span>Contact</span>
+                </a>
+            </div>
+
+            </div>
+
+            <div class="headshot">
+                <style>
+                    .portfolio-image {
+                      width: 400px;
+                      height: auto;
+                    }
+                    </style>
+                    <img src="pexels-joshsorenson-1714208.jpg" alt="code office headshot" class="portfolio-image">
+
+
+            </div>
+        </section>
+
+        <!--SECTION 2: SKILLS-->
+        <section id="Skills" class="skills-section">
+          
+            <h2>Skills</h2>
+            <div class="text">Full-stack development, agile methodologies, and creating scalable, user-friendly applications, with skilss in 
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="./html-logo.webp" alt="html-logo">
+                    <span>HTML</span>
+            </div>
+
+            <div class="cell">
+                <img src="./css-logo.webp" alt="css-logo">
+                <span>CSS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="./javascript-logo.webp" alt="javascript-logo">
+                    <span>JAVASCRIPT</span>
+                    </div>
+
+                    <div class="cell">
+                        <img src="./node-logo.webp" alt="node-logo">
+                        <span>NODE</span>
+                        </div>
+            </div>
+        </section>
+
+        <!--SECTION 3: EDUCATION BACKGROUND-->
+        <section id="education-background" class="education-background">
+            <h2>Education Background</h2>
+            <div class="text">
+              <p>I'm a graduate from the University of Kabianga, Kenya, the class of 2018 in Bsc Forestry.</p>
+              <p>Currently I'm enrolled at Power Learn Project Academy doing Software Development Course to graduate in August 2025.</p>
+            </div>
+            <div class="downloads">
+              <a href="PHELISTERS OMBUCHA-UPDATED CV.pdf" download alt="Download CV">
+                <p>Download CV</p>
+              </a>
+            </div>
+          </section>
+        <!--SECTION 4: CONTACT-->
+        
+            <section id="contact" class="contact-section">
+                <h2>Contact Me</h2>
+                <p class="contact-text">
+                  I'm always eager to connect and discuss potential opportunities. Feel free to reach out to me through the following channels:
+                </p>
+              
+                <div class="contact-details">
+                  <div class="contact-item">
+                    <i class="fas fa-envelope"></i> <p><a href="mailto:ombuchap2@gmail.com">Email</a></p>
+                  </div>
+              
+                  <div class="contact-item">
+                    <i class="fab fa-linkedin"></i> <p><a href="https://www.linkedin.com/in/phelisters-ombucha-2b96151ab/">Linkedin</a></p>
+                  </div>
+              
+                  <div class="contact-item">
+                    <i class="fab fa-github"></i> <p><a href="https://github.com/OMBUCHA-gt">Github</a></p>
+                  </div>
+              
+                  <div class="contact-item">
+                    <i class="fas fa-phone"></i> <p><a href="+254 714 557578">Mobile </a></p>
+                  </div>
+              
+                </div>
+              
+                <div class="contact-form">
+                  <h3>Or, send me a message directly:</h3>
+                  <form action="your-form-processing-script.php" method="POST">
+                    <div class="form-group">
+                      <label for="name">Name:</label>
+                      <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="message">Message:</label>
+                      <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+                  </form>
+                </div>
+              
+              
+        </section>
+    </main>
+    <footer>
+      &copy; 2025 Ombucha
+    </footer>
+</body>
+</html>
